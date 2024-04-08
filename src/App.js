@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@chakra-ui/react";
+import { useEffect, useState } from "react";
+import Home from "./pages/Home";
+import SkillCard from "./components/SkillCard";
+
 
 function App() {
+
+  const [data, setData] = useState(null);
+  const [loding, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  
+
+  useEffect(()=> {
+    const fetchFoodData = async() => {
+      try {
+        const response = await fetch('https://portfolio-backend-30mp.onrender.com/api/v1/get/user/65b3a22c01d900e96c4219ae')
+      const json = await response.json();
+
+      setData(json);
+      setLoading(false)
+      }catch(error) {
+        setError("Unable to fetch Data")
+        setLoading(false);
+      }
+
+  };
+  fetchFoodData();
+  },[]);
+
+  if (loding) return <div>loding....</div>
+  if (error) return <div>{error}</div>
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        {data && <Home data={data} />}
+        {/* <Home/> */}
+        {/* <SkillCard/> */}
+
+    </>
   );
 }
 
