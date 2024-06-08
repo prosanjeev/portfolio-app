@@ -20,7 +20,7 @@ const SkillCard = ({skill}) => {
         <Flex align="center" gap={4}>
           <Image
             h="40px"
-            src= {skill.image.url}
+            src= {skill.icon}
           />
           <Text fontSize="21px" fontWeight="700">
             {skill.name}

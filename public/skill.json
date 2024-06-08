@@ -1,0 +1,119 @@
+{
+    "skills": [
+      {
+        "name": "C++",
+        "percentage": "87%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/cpp-icon.png"
+      },
+      {
+        "name": "Python",
+        "percentage": "86%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/python-icon.png"
+      },
+      {
+        "name": "Docker",
+        "percentage": "85%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/docker-icon.png"
+      },
+      {
+        "name": "Figma",
+        "percentage": "95%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/figma-icon.png"
+      },
+      {
+        "name": "TypeScript",
+        "percentage": "90%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/typescript-icon.png"
+      },
+      {
+        "name": "Node.js",
+        "percentage": "92%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/nodejs-icon.png"
+      },
+      {
+        "name": "MongoDB",
+        "percentage": "70%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/mongodb-icon.png"
+      },
+      {
+        "name": "Three.js",
+        "percentage": "70%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/threejs-icon.png"
+      },
+      {
+        "name": "Redux",
+        "percentage": "95%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/redux-icon.png"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "95%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/javascript-icon.png"
+      },
+      {
+        "name": "Git",
+        "percentage": "95%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/git-icon.png"
+      },
+      {
+        "name": "GitHub",
+        "percentage": "95%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/github-icon.png"
+      },
+      {
+        "name": "Sass",
+        "percentage": "95%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/sass-icon.png"
+      },
+      {
+        "name": "GraphQL",
+        "percentage": "80%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/graphql-icon.png"
+      },
+      {
+        "name": "Vercel",
+        "percentage": "90%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/vercel-icon.png"
+      },
+      {
+        "name": "Next.js",
+        "percentage": "90%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/nextjs-icon.png"
+      },
+      {
+        "name": "React",
+        "percentage": "90%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/react-icon.png"
+      },
+      {
+        "name": "Tailwind",
+        "percentage": "99%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/tailwind-icon.png"
+      },
+      {
+        "name": "CSS",
+        "percentage": "97%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "path/to/css-icon.png"
+      }
+    ]
+  }
+  

@@ -5,7 +5,7 @@ function HardcodedCard({project}) {
   return (
     <Box maxW="sm" borderWidth="1px" borderRadius="20px" overflow="hidden" px={6} pt={6} bg='white' zIndex={10}>
       <Image
-        src={project.image.url}
+        src={project.image}
         borderRadius="20px"
         alt="Placeholder Image"
       />

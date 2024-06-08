@@ -9,15 +9,15 @@ const InfoGrid = () => {
     },
     {
       title: "Email",
-      text: "portfolio3@gmail.com",
+      text: "sanjeevcse2k23@gmail.com",
     },
     {
       title: "Phone",
-      text: "+91-9212321321      ",
+      text: "+91-9798288748",
     },
     {
       title: "Address",
-      text: "Los Angeles, America ",
+      text: "Bengaluru, Karnataka, 560016",
     },
   ];
 

@@ -18,7 +18,7 @@ const TestimonialCard = ({testimonial}) => {
         <Text fontSize='21px' fontWeight='bold'>{testimonial.name}</Text>
         <Text>{testimonial.position}</Text>
      </Stack>
-        <Image src="/pat-2.png" position='absolute' h='120px' w='120px' bottom={-4} right={-4} />
+        <Image src="/pat.png" position='absolute' h='120px' w='120px' bottom={-4} right={-4} />
   </Stack>
   )
 }

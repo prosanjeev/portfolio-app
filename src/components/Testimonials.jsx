@@ -1,13 +1,13 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/swiper-bundle.min.css';
-import { Box } from "@chakra-ui/react";
+import { Box, Flex, Stack } from "@chakra-ui/react";
 import HeadingWithSubtitle from "./HeadingWithSubtitle";
 import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = ({ testimonials }) => {
   return (
-    <Box py={40} zIndex={50}>
+    <Stack py={40} zIndex={50} justify='center'>
       <HeadingWithSubtitle
         title="TESTIMONIALS"
         textOne="WHAT"
@@ -26,7 +26,7 @@ const Testimonials = ({ testimonials }) => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </Box>
+    </Stack>
   );
 };
 

@@ -82,14 +82,14 @@ const SwiperSlider = (services) => {
         ))}
       </Swiper>
       <Box mt={2} textAlign="center">
-        <HStack spacing="1">
-          {Array.from({ length: 9 }).map((_, index) => (
+        <HStack spacing="4" justify='center' mt={20}>
+          {Array.from({ length: 6 }).map((_, index) => (
             <Box
               key={index}
               bg={index === 0 ? "gray.600" : "gray.400"}
               borderRadius="full"
-              w="2"
-              h="2"
+              w="4"
+              h="4"
             />
           ))}
         </HStack>

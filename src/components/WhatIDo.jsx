@@ -4,7 +4,7 @@ import SwiperSlider from "./Swiper";
 
 const WhatIDo = (service) => {
   return (
-    <Box bg="#F2EDE6" h="100vh" py={40}>
+    <Box  h="100vh" py={40}>
       <HeadingWithSubtitle
         title="WHAT I DO"   
         textOne='MY' textTwo='Services'
